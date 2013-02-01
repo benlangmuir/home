@@ -1,0 +1,4 @@
+home
+====
+
+Dotfiles, scripts, etc.
