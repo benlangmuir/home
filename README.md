@@ -1,4 +1,4 @@
-home
+Home
 ====
 
 Dotfiles, scripts, etc.
