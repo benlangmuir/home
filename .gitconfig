@@ -14,5 +14,5 @@
   changed = green
   untracked = cyan
 [user]
-	name = Ben Langmuir
-	email = ben.langmuir@gmail.com
+  name = Ben Langmuir
+  email = ben.langmuir@gmail.com
