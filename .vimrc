@@ -13,8 +13,10 @@ syntax enable
 
 augroup filetype
   au! BufRead,BufNewFile *.ll   set filetype=llvm
-  au! BufRead,BufNewFile *.ispc   set filetype=ispc
+  au! BufRead,BufNewFile *.ispc set filetype=ispc
   au! BufRead,BufNewFile *.td   set filetype=tablegen
+  au! BufRead,BufNewFile *.s    set filetype=nasm
+  au! BufRead,BufNewFile SCons* set filetype=scons
 augroup END
 
 set guifont="Droid Sans Mono 10"
