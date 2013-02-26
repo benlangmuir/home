@@ -17,6 +17,7 @@ augroup filetype
   au! BufRead,BufNewFile *.td   set filetype=tablegen
   au! BufRead,BufNewFile *.s    set filetype=nasm
   au! BufRead,BufNewFile SCons* set filetype=scons
+  au! BufRead,BufNewFile *.md set filetype=markdown
 augroup END
 
 set guifont="Droid Sans Mono 10"
